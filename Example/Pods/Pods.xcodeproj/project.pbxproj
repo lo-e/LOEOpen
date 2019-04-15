@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B2A84992919E6B9DF33C745B482F3D4 /* LOEOpen-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A72629DC0ADEF620B54FD70DA20315 /* LOEOpen-dummy.m */; };
+		1BD1F0D6D48F1934ABA8337C4713C0D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		5CA545386C15A6452ACBD199591F286F /* Pods-LOEOpen_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5459121921A3A5A89507FD5416F52FB3 /* Pods-LOEOpen_Tests-dummy.m */; };
+		679881D4E45A5B4B3E85D9F38515D824 /* Pods-LOEOpen_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E070A27669EC984DF8A85CE82C64D2E9 /* Pods-LOEOpen_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DFBFC9C5E372B58390E560B1CF76669 /* LOEOpen-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FF9C925978827B3AE93D7B75CC476BF /* LOEOpen-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93E0785E8160509CD3C84A0BA85C074B /* Pods-LOEOpen_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 309B8F380E18D66A2DF52D1CE71F8C8B /* Pods-LOEOpen_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A87244FC6C9AAB573EAD581FD266152F /* Pods-LOEOpen_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A21D6FE4989E18DBF02F6E9688EE287 /* Pods-LOEOpen_Example-dummy.m */; };
+		B43DAEDAEAEC1842A5133456A2ABF5B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		E2667ACEA5A95487804ADA79EC3D61DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		FCCB1AC3A9E580C80775BED3C05A6288 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB17925EE560CF6BAD50BB054BC77A5 /* ReplaceMe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAA83419AA83B7270A7A0CBC2B2B6549 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF0C7D5616627A8F4F2DCE74D9BB953B;
+			remoteInfo = "Pods-LOEOpen_Example";
+		};
+		FC9AFA8444E6AD605F3EB3914518641E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2513E21913DD435E8E620E9D8AD2CC7B;
+			remoteInfo = LOEOpen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18D034C5ADD135DEB924380CA31D8F9A /* Pods-LOEOpen_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LOEOpen_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2FF9C925978827B3AE93D7B75CC476BF /* LOEOpen-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LOEOpen-umbrella.h"; sourceTree = "<group>"; };
+		309B8F380E18D66A2DF52D1CE71F8C8B /* Pods-LOEOpen_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LOEOpen_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3DB17925EE560CF6BAD50BB054BC77A5 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LOEOpen/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		3E22372A2B40FA8099D2E713A5E969F9 /* Pods-LOEOpen_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LOEOpen_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5459121921A3A5A89507FD5416F52FB3 /* Pods-LOEOpen_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LOEOpen_Tests-dummy.m"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A7657611BDB2ADB0E50D8E869DE5278 /* Pods-LOEOpen_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LOEOpen_Example.release.xcconfig"; sourceTree = "<group>"; };
+		76B586CA0495B9760BC43519C3F0C244 /* LOEOpen-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LOEOpen-prefix.pch"; sourceTree = "<group>"; };
+		77A72629DC0ADEF620B54FD70DA20315 /* LOEOpen-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LOEOpen-dummy.m"; sourceTree = "<group>"; };
+		7A763BCB60C78E849AC5B6E242A72E63 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7B4C952FAC79825A41CC12A968161D48 /* Pods-LOEOpen_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LOEOpen_Tests.modulemap"; sourceTree = "<group>"; };
+		7CD1D6F55CD8A8928A957E52D1FE896E /* LOEOpen.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LOEOpen.xcconfig; sourceTree = "<group>"; };
+		7F9351A6397FCB5AEC6FEC0D4851AACA /* Pods-LOEOpen_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LOEOpen_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		80940207005F4B3E7AB2306B9625E2E4 /* LOEOpen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LOEOpen.framework; path = LOEOpen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A21D6FE4989E18DBF02F6E9688EE287 /* Pods-LOEOpen_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LOEOpen_Example-dummy.m"; sourceTree = "<group>"; };
+		8B30CCACC04D9BAC1DDD79CC1228F25B /* LOEOpen.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LOEOpen.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E88C373BB1C83DE407AD5935284DA11 /* LOEOpen.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LOEOpen.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9BE6A54272DECA93358869D0FC29A87 /* Pods-LOEOpen_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LOEOpen_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AB448A99D4973BF4D91A042C657F9985 /* Pods-LOEOpen_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LOEOpen_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CE15CCE713C40719B548C1FE8FC19BDA /* Pods-LOEOpen_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LOEOpen_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D3B5968DE65E8DD1F645EAEE62B1014B /* Pods_LOEOpen_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LOEOpen_Example.framework; path = "Pods-LOEOpen_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D582D3486508F497AB894857098E62D2 /* LOEOpen-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LOEOpen-Info.plist"; sourceTree = "<group>"; };
+		E070A27669EC984DF8A85CE82C64D2E9 /* Pods-LOEOpen_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LOEOpen_Example-umbrella.h"; sourceTree = "<group>"; };
+		E41EE173A4A5BD283724893951D2606F /* Pods-LOEOpen_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LOEOpen_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EBFEE0CDCF92CB3935B9D003BA7AE7D1 /* Pods_LOEOpen_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LOEOpen_Tests.framework; path = "Pods-LOEOpen_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC22BAEAFEC464FB8DEC4E5B11AC1143 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EF10401B603916E107554C2E1B2A389A /* Pods-LOEOpen_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LOEOpen_Example-Info.plist"; sourceTree = "<group>"; };
+		F030F34DB9609FFF2267CF719BE038B0 /* Pods-LOEOpen_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LOEOpen_Tests-Info.plist"; sourceTree = "<group>"; };
+		F5DB2FBD4BC954BDCE7C5331979B452B /* Pods-LOEOpen_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LOEOpen_Example.modulemap"; sourceTree = "<group>"; };
+		FAAC459F6792C0FF869BD2B66419E002 /* Pods-LOEOpen_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LOEOpen_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2015D78D722CD28759DB89FF85AC5DC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD1F0D6D48F1934ABA8337C4713C0D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89AA872C9CE06FED97890E837E783D7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2667ACEA5A95487804ADA79EC3D61DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2197A8EFED76CB6DAB61DE2E45CAF02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43DAEDAEAEC1842A5133456A2ABF5B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09E8007547E4CDD1D3D67B064E9A002C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E27D543BB12FBA502388B8B27648404 /* LOEOpen */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5ADBB6B469F539015ABE591DC4DF5DCB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EBA661F67E87D047BFC166CAA882751 /* Pods-LOEOpen_Example */,
+				B7370D99EB9B0DE5611C80760C2B3B07 /* Pods-LOEOpen_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6202A1CE2B3F195D870287B58B4E5A70 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B30CCACC04D9BAC1DDD79CC1228F25B /* LOEOpen.modulemap */,
+				7CD1D6F55CD8A8928A957E52D1FE896E /* LOEOpen.xcconfig */,
+				77A72629DC0ADEF620B54FD70DA20315 /* LOEOpen-dummy.m */,
+				D582D3486508F497AB894857098E62D2 /* LOEOpen-Info.plist */,
+				76B586CA0495B9760BC43519C3F0C244 /* LOEOpen-prefix.pch */,
+				2FF9C925978827B3AE93D7B75CC476BF /* LOEOpen-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LOEOpen";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				09E8007547E4CDD1D3D67B064E9A002C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C80ACEECFF99CBDAD4927842212E39FB /* Products */,
+				5ADBB6B469F539015ABE591DC4DF5DCB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8E27D543BB12FBA502388B8B27648404 /* LOEOpen */ = {
+			isa = PBXGroup;
+			children = (
+				3DB17925EE560CF6BAD50BB054BC77A5 /* ReplaceMe.m */,
+				CBB9C69FBC17E582B99214A93B6A789F /* Pod */,
+				6202A1CE2B3F195D870287B58B4E5A70 /* Support Files */,
+			);
+			name = LOEOpen;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8EBA661F67E87D047BFC166CAA882751 /* Pods-LOEOpen_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F5DB2FBD4BC954BDCE7C5331979B452B /* Pods-LOEOpen_Example.modulemap */,
+				7F9351A6397FCB5AEC6FEC0D4851AACA /* Pods-LOEOpen_Example-acknowledgements.markdown */,
+				FAAC459F6792C0FF869BD2B66419E002 /* Pods-LOEOpen_Example-acknowledgements.plist */,
+				8A21D6FE4989E18DBF02F6E9688EE287 /* Pods-LOEOpen_Example-dummy.m */,
+				A9BE6A54272DECA93358869D0FC29A87 /* Pods-LOEOpen_Example-frameworks.sh */,
+				EF10401B603916E107554C2E1B2A389A /* Pods-LOEOpen_Example-Info.plist */,
+				E070A27669EC984DF8A85CE82C64D2E9 /* Pods-LOEOpen_Example-umbrella.h */,
+				18D034C5ADD135DEB924380CA31D8F9A /* Pods-LOEOpen_Example.debug.xcconfig */,
+				6A7657611BDB2ADB0E50D8E869DE5278 /* Pods-LOEOpen_Example.release.xcconfig */,
+			);
+			name = "Pods-LOEOpen_Example";
+			path = "Target Support Files/Pods-LOEOpen_Example";
+			sourceTree = "<group>";
+		};
+		B7370D99EB9B0DE5611C80760C2B3B07 /* Pods-LOEOpen_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7B4C952FAC79825A41CC12A968161D48 /* Pods-LOEOpen_Tests.modulemap */,
+				AB448A99D4973BF4D91A042C657F9985 /* Pods-LOEOpen_Tests-acknowledgements.markdown */,
+				CE15CCE713C40719B548C1FE8FC19BDA /* Pods-LOEOpen_Tests-acknowledgements.plist */,
+				5459121921A3A5A89507FD5416F52FB3 /* Pods-LOEOpen_Tests-dummy.m */,
+				F030F34DB9609FFF2267CF719BE038B0 /* Pods-LOEOpen_Tests-Info.plist */,
+				309B8F380E18D66A2DF52D1CE71F8C8B /* Pods-LOEOpen_Tests-umbrella.h */,
+				3E22372A2B40FA8099D2E713A5E969F9 /* Pods-LOEOpen_Tests.debug.xcconfig */,
+				E41EE173A4A5BD283724893951D2606F /* Pods-LOEOpen_Tests.release.xcconfig */,
+			);
+			name = "Pods-LOEOpen_Tests";
+			path = "Target Support Files/Pods-LOEOpen_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C80ACEECFF99CBDAD4927842212E39FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80940207005F4B3E7AB2306B9625E2E4 /* LOEOpen.framework */,
+				D3B5968DE65E8DD1F645EAEE62B1014B /* Pods_LOEOpen_Example.framework */,
+				EBFEE0CDCF92CB3935B9D003BA7AE7D1 /* Pods_LOEOpen_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBB9C69FBC17E582B99214A93B6A789F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7A763BCB60C78E849AC5B6E242A72E63 /* LICENSE */,
+				9E88C373BB1C83DE407AD5935284DA11 /* LOEOpen.podspec */,
+				EC22BAEAFEC464FB8DEC4E5B11AC1143 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D0E78A6E00AE2A09F0038D5C5803143 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E0785E8160509CD3C84A0BA85C074B /* Pods-LOEOpen_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		266903F02909C55CBB360E77773CC2AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				679881D4E45A5B4B3E85D9F38515D824 /* Pods-LOEOpen_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF0220D640E8E542BE519CA4B532A33 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DFBFC9C5E372B58390E560B1CF76669 /* LOEOpen-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2513E21913DD435E8E620E9D8AD2CC7B /* LOEOpen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EA0DD6AB358D0FC7F7F430F87A11633 /* Build configuration list for PBXNativeTarget "LOEOpen" */;
+			buildPhases = (
+				BCF0220D640E8E542BE519CA4B532A33 /* Headers */,
+				6D19893DCB87B945ACA68D1DBA05559D /* Sources */,
+				2015D78D722CD28759DB89FF85AC5DC6 /* Frameworks */,
+				5CAE991D3B849FB17262FCE17D28A4C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LOEOpen;
+			productName = LOEOpen;
+			productReference = 80940207005F4B3E7AB2306B9625E2E4 /* LOEOpen.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7014B016E5450BF36D541027A51E2035 /* Pods-LOEOpen_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99C113C4D79CD366ABF7BCD6AADD4C87 /* Build configuration list for PBXNativeTarget "Pods-LOEOpen_Tests" */;
+			buildPhases = (
+				0D0E78A6E00AE2A09F0038D5C5803143 /* Headers */,
+				3A210A65420CD24DC44E8080A0C5EA06 /* Sources */,
+				89AA872C9CE06FED97890E837E783D7E /* Frameworks */,
+				03D5456126685EC9749058F029276208 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1ADD172BD80F7790C963D3ADBBDB4B48 /* PBXTargetDependency */,
+			);
+			name = "Pods-LOEOpen_Tests";
+			productName = "Pods-LOEOpen_Tests";
+			productReference = EBFEE0CDCF92CB3935B9D003BA7AE7D1 /* Pods_LOEOpen_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF0C7D5616627A8F4F2DCE74D9BB953B /* Pods-LOEOpen_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0FB9335983B2DB43F9CF0D7480449E2 /* Build configuration list for PBXNativeTarget "Pods-LOEOpen_Example" */;
+			buildPhases = (
+				266903F02909C55CBB360E77773CC2AD /* Headers */,
+				70F0610428667BFA8C5BC3AD03D246E1 /* Sources */,
+				C2197A8EFED76CB6DAB61DE2E45CAF02 /* Frameworks */,
+				A3B6907305A6B05FEC21A7FAE8DB44EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C67F28D4F4660897A66CC7116AE172A /* PBXTargetDependency */,
+			);
+			name = "Pods-LOEOpen_Example";
+			productName = "Pods-LOEOpen_Example";
+			productReference = D3B5968DE65E8DD1F645EAEE62B1014B /* Pods_LOEOpen_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C80ACEECFF99CBDAD4927842212E39FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2513E21913DD435E8E620E9D8AD2CC7B /* LOEOpen */,
+				BF0C7D5616627A8F4F2DCE74D9BB953B /* Pods-LOEOpen_Example */,
+				7014B016E5450BF36D541027A51E2035 /* Pods-LOEOpen_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03D5456126685EC9749058F029276208 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CAE991D3B849FB17262FCE17D28A4C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B6907305A6B05FEC21A7FAE8DB44EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A210A65420CD24DC44E8080A0C5EA06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA545386C15A6452ACBD199591F286F /* Pods-LOEOpen_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D19893DCB87B945ACA68D1DBA05559D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2A84992919E6B9DF33C745B482F3D4 /* LOEOpen-dummy.m in Sources */,
+				FCCB1AC3A9E580C80775BED3C05A6288 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F0610428667BFA8C5BC3AD03D246E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87244FC6C9AAB573EAD581FD266152F /* Pods-LOEOpen_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1ADD172BD80F7790C963D3ADBBDB4B48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LOEOpen_Example";
+			target = BF0C7D5616627A8F4F2DCE74D9BB953B /* Pods-LOEOpen_Example */;
+			targetProxy = DAA83419AA83B7270A7A0CBC2B2B6549 /* PBXContainerItemProxy */;
+		};
+		6C67F28D4F4660897A66CC7116AE172A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LOEOpen;
+			target = 2513E21913DD435E8E620E9D8AD2CC7B /* LOEOpen */;
+			targetProxy = FC9AFA8444E6AD605F3EB3914518641E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33287C05C980CDE83264C66BB4038B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E41EE173A4A5BD283724893951D2606F /* Pods-LOEOpen_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LOEOpen_Tests/Pods-LOEOpen_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LOEOpen_Tests/Pods-LOEOpen_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6BDBF27CD2E986CB801826EE4345FCA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A7657611BDB2ADB0E50D8E869DE5278 /* Pods-LOEOpen_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LOEOpen_Example/Pods-LOEOpen_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LOEOpen_Example/Pods-LOEOpen_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		83DD6752EDAF7DAE88E4CE80132D7117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18D034C5ADD135DEB924380CA31D8F9A /* Pods-LOEOpen_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LOEOpen_Example/Pods-LOEOpen_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LOEOpen_Example/Pods-LOEOpen_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		904A8BB4487B57A1D4712078ECC795DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CD1D6F55CD8A8928A957E52D1FE896E /* LOEOpen.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LOEOpen/LOEOpen-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LOEOpen/LOEOpen-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LOEOpen/LOEOpen.modulemap";
+				PRODUCT_MODULE_NAME = LOEOpen;
+				PRODUCT_NAME = LOEOpen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		96434B6C8FF320C976A10DAD7174A4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D11C82AF2204B41B80412B8DC9C1D652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F14A6B2D660FDFC42FCDB0BDC79AAC8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E22372A2B40FA8099D2E713A5E969F9 /* Pods-LOEOpen_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LOEOpen_Tests/Pods-LOEOpen_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LOEOpen_Tests/Pods-LOEOpen_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB5E69416ED11911DD976A52324780E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CD1D6F55CD8A8928A957E52D1FE896E /* LOEOpen.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LOEOpen/LOEOpen-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LOEOpen/LOEOpen-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LOEOpen/LOEOpen.modulemap";
+				PRODUCT_MODULE_NAME = LOEOpen;
+				PRODUCT_NAME = LOEOpen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D11C82AF2204B41B80412B8DC9C1D652 /* Debug */,
+				96434B6C8FF320C976A10DAD7174A4BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99C113C4D79CD366ABF7BCD6AADD4C87 /* Build configuration list for PBXNativeTarget "Pods-LOEOpen_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F14A6B2D660FDFC42FCDB0BDC79AAC8F /* Debug */,
+				33287C05C980CDE83264C66BB4038B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EA0DD6AB358D0FC7F7F430F87A11633 /* Build configuration list for PBXNativeTarget "LOEOpen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904A8BB4487B57A1D4712078ECC795DF /* Debug */,
+				FB5E69416ED11911DD976A52324780E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0FB9335983B2DB43F9CF0D7480449E2 /* Build configuration list for PBXNativeTarget "Pods-LOEOpen_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83DD6752EDAF7DAE88E4CE80132D7117 /* Debug */,
+				6BDBF27CD2E986CB801826EE4345FCA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

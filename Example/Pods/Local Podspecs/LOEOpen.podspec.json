@@ -1,0 +1,22 @@
+{
+  "name": "LOEOpen",
+  "version": "0.1.0",
+  "summary": "A short description of LOEOpen.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lo-e@outlook.com/LOEOpen",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lo-e@outlook.com": "lo-e@outlook.com"
+  },
+  "source": {
+    "git": "https://github.com/lo-e@outlook.com/LOEOpen.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LOEOpen/Classes/**/*"
+}

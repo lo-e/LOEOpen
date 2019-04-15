@@ -1,0 +1,16 @@
+PODS:
+  - LOEOpen (0.1.0)
+
+DEPENDENCIES:
+  - LOEOpen (from `../`)
+
+EXTERNAL SOURCES:
+  LOEOpen:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LOEOpen: 1379ab04cc2c0eda9a99c56c9d6ec70a8dffe552
+
+PODFILE CHECKSUM: 619747c54405efad43f81fd04ff61f2615af8bc8
+
+COCOAPODS: 1.6.0.beta.1

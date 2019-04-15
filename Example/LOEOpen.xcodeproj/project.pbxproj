@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		29A022F2291836A7EBBDDD8A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		29A022F2291836A7EBBDDD8A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2C1D9FF6E27DFB3CE8AC029D /* Pods-LOEOpen_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOEOpen_Tests.release.xcconfig"; path = "Target Support Files/Pods-LOEOpen_Tests/Pods-LOEOpen_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		35118F381CC678A7008E1746 /* Pods-LOEOpen_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOEOpen_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LOEOpen_Tests/Pods-LOEOpen_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4405F00AC025A9469D881A06 /* Pods_LOEOpen_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LOEOpen_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,9 +60,9 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6901BB56306904148A8F5113 /* LOEOpen.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LOEOpen.podspec; path = ../LOEOpen.podspec; sourceTree = "<group>"; };
+		6901BB56306904148A8F5113 /* LOEOpen.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LOEOpen.podspec; path = ../LOEOpen.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7362D333DCB3089EF146E08F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7362D333DCB3089EF146E08F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D7487B1CC83344432990DA7 /* Pods-LOEOpen_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOEOpen_Example.debug.xcconfig"; path = "Target Support Files/Pods-LOEOpen_Example/Pods-LOEOpen_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A82379F62E5B489D232FAF03 /* Pods-LOEOpen_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOEOpen_Example.release.xcconfig"; path = "Target Support Files/Pods-LOEOpen_Example/Pods-LOEOpen_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 				35118F381CC678A7008E1746 /* Pods-LOEOpen_Tests.debug.xcconfig */,
 				2C1D9FF6E27DFB3CE8AC029D /* Pods-LOEOpen_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
